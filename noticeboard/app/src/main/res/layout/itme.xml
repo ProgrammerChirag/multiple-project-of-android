@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:id="@+id/notice"
+    android:visibility="visible"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:background="#EAF0F1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <View
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:background="#4834DF"
+                ></View>
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/notice"
+                ></ImageView>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                ></TextView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Hi, chirag juneja"
+            android:layout_marginTop="4dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            ></TextView>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            ></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            ></View>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/addnew"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="visible"
+        android:src="@drawable/ic_add_circle_outline_black_24dp"
+        ></ImageView>
+</RelativeLayout>

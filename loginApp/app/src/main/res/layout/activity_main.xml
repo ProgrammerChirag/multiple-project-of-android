@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/data"
+        ></ImageView>
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Details">
+    </TextView>
+    <EditText
+        android:id="@+id/name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter your name"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+></EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:textColor="#192A56"
+        android:textStyle="bold|italic"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/number"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your number"
+        android:inputType="number"
+        android:textColor="#192A56"
+        android:textStyle="bold|italic"
+        ></EditText>
+    <EditText
+        android:id="@+id/city"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City Name"
+        android:textStyle="bold|italic"
+        android:inputType="text"
+        android:textColor="#192A56"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/register"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorPrimary"
+        ></Button>
+</LinearLayout>

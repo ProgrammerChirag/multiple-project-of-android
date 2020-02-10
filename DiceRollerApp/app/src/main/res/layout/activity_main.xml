@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/person1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dice1"
+        ></ImageView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        ></View>
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/person2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dice2"
+        ></ImageView>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="result"
+    android:id="@+id/result"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    android:textColor="@android:color/white"
+    android:background="@drawable/mystyel"
+    ></Button>
+</LinearLayout>

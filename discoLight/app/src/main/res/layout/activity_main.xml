@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <SeekBar
+        android:layout_marginTop="200dp"
+        android:progress="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek"
+        ></SeekBar>
+
+<Button
+
+    android:id="@+id/exit"
+    android:layout_marginTop="80dp"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:text="EXIT..."
+    android:background="@drawable/mystyle"
+    android:textColor="@android:color/white"
+    android:textSize="40dp"
+    android:textStyle="bold"
+    android:padding="20dp"
+    ></Button>
+    <Button
+        android:id="@+id/off"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Off the light..."
+        android:background="@drawable/mystyle"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:layout_marginBottom="40dp"
+        ></Button>
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_highlight_black_24dp"
+        ></ImageView>
+</LinearLayout>

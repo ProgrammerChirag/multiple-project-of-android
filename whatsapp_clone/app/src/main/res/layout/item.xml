@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:weightSum="3"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textview"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_launcher_background"
+            ></com.mikhaellopez.circularimageview.CircularImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/name"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:text="Chirag"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                ></TextView>
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/message"
+                android:textSize="18dp"
+                android:text="hello"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                ></TextView>
+            <View
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="0.45dp"
+                ></View>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="69.55dp"
+                android:text="17:24 am"
+                ></TextView>
+            <View
+                android:background="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="0.040dp"
+                ></View>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

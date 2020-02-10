@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1058960528878",
+    "firebase_url": "https://contactapp-f80ba.firebaseio.com",
+    "project_id": "contactapp-f80ba",
+    "storage_bucket": "contactapp-f80ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058960528878:android:642cd67464a583a9cfaaff",
+        "android_client_info": {
+          "package_name": "com.chirag.contactapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058960528878-0gn8fl5fv53h37k9qumknoqc76hi0grg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chirag.contactapp",
+            "certificate_hash": "d36e37007795dc548cbbb67ad8655697a37fca18"
+          }
+        },
+        {
+          "client_id": "1058960528878-tl3vs8iarpp3l991006mfbpa5bv1m1dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcWPtaoe7Nd8reWJXoDqUTsRjieEtebrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058960528878-tl3vs8iarpp3l991006mfbpa5bv1m1dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

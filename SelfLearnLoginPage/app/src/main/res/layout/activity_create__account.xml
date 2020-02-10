@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".create_Account">
+    <LinearLayout
+        android:background="@color/mycolor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp"
+            >
+            <LinearLayout
+                android:background="@color/mycolor2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <TextView
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Account Creation Form"
+                    android:textColor="@android:color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    ></TextView>
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"
+                    android:text="Become a Selflearner with the huge community ..."
+                    ></TextView>
+
+                <EditText
+                    android:id="@+id/name"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter First Name"
+                    ></EditText>
+                <EditText
+                    android:id="@+id/name2"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter Last Name"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/username"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter username"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/mail"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter Email"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/number"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter Phone Number"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/dob"
+                    android:inputType="date"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter date of birth"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:maxLength="10"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter Password"
+                    ></EditText>
+                <EditText
+                    android:id="@+id/country"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    android:hint="Enter Country name"
+                    ></EditText>
+                <TextView
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="category"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    ></TextView>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:backgroundTint="@color/mycolor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Student"
+                    android:checked="true"
+                    ></RadioButton>
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:backgroundTint="@color/mycolor2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="professional"
+                    ></RadioButton>
+                </RadioGroup>
+                <EditText
+                    android:id="@+id/bio"
+                    android:lines="10"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@drawable/mystyle3"
+                    android:hint="About You"
+                    ></EditText>
+                <Button
+                    android:id="@+id/submit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:layout_margin="20dp"
+                    android:text="Submit"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mystyle3"
+                    ></Button>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

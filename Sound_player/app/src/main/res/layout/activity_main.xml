@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="2"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+        <Button
+            android:id="@+id/sound_1"
+            android:layout_margin="5dp"
+            android:background="#D63031"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:id="@+id/sound_2"
+            android:layout_margin="5dp"
+            android:background="#0A79DF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:id="@+id/sound_3"
+            android:layout_margin="5dp"
+            android:background="#26ae60"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:id="@+id/sound_4"
+            android:layout_margin="5dp"
+            android:background="#F4C724"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+        <Button
+            android:id="@+id/sound_5"
+            android:layout_margin="5dp"
+            android:background="#F9DDA4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:id="@+id/sound_6"
+            android:layout_margin="5dp"
+            android:background="#BB2CD9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:id="@+id/sound_7"
+            android:layout_margin="5dp"
+            android:background="#4834DF"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:id="@+id/sound_8"
+            android:layout_margin="5dp"
+            android:background="#4BCFFA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></Button>
+    </LinearLayout>
+
+</LinearLayout>

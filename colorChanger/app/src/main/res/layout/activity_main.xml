@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/lay"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="click to change color"
+    android:layout_gravity="center"
+    android:layout_margin="120dp"
+    android:id="@+id/click"
+    android:background="@drawable/mystyle"
+    >
+</Button>
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="click to copy"
+        android:background="@drawable/mystyle2"
+        ></TextView>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    android:textColor="@android:color/black"
+    android:layout_gravity="center"
+    ></Button>
+
+</LinearLayout>

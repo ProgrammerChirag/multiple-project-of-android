@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "909896821365",
+    "firebase_url": "https://projectauthentication-ef671.firebaseio.com",
+    "project_id": "projectauthentication-ef671",
+    "storage_bucket": "projectauthentication-ef671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909896821365:android:3d01b135440ab1edf4a63c",
+        "android_client_info": {
+          "package_name": "com.chirag.project_authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909896821365-42je4nq32alu87ok7gs3rnnc03184tmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chirag.project_authentication",
+            "certificate_hash": "d36e37007795dc548cbbb67ad8655697a37fca18"
+          }
+        },
+        {
+          "client_id": "909896821365-lc1rchl0s5h9csti5qigvgaolfveqeop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs-pJ0qnXAt2pKd_OaCFvqMvJfaIS4Iw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909896821365-lc1rchl0s5h9csti5qigvgaolfveqeop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

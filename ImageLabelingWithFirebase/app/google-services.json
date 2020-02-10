@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969004717034",
+    "firebase_url": "https://imagelabelingwithfirebas-53c2c.firebaseio.com",
+    "project_id": "imagelabelingwithfirebas-53c2c",
+    "storage_bucket": "imagelabelingwithfirebas-53c2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969004717034:android:2fb4f5def191ab85229893",
+        "android_client_info": {
+          "package_name": "com.chirag.imagelabelingwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969004717034-n19atksa1ebrftjh9perk77p6d9abovl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chirag.imagelabelingwithfirebase",
+            "certificate_hash": "d36e37007795dc548cbbb67ad8655697a37fca18"
+          }
+        },
+        {
+          "client_id": "969004717034-fcct2ksqmdri8ubfh11i1h7hu7s9rp8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApIaDZhz26H2B-KghBISBEPVdnJJnH1cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969004717034-fcct2ksqmdri8ubfh11i1h7hu7s9rp8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

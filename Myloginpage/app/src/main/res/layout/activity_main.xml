@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="@drawable/dualcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    >
+
+    <ImageView
+        android:layout_gravity="bottom"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:src="@drawable/login"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        ></ImageView>
+    <LinearLayout
+        android:background="@android:color/transparent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+
+
+        <EditText
+            android:id="@+id/username"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:hint="Enter Your Name or Username"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            ></EditText>
+        <EditText
+            android:id="@+id/pass"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:hint="Enter Your password"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            ></EditText>
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Remenber Password"
+            android:textColor="@android:color/black"
+            android:layout_weight="0.3"
+            ></CheckBox>
+        <Button
+            android:id="@+id/login"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="LOGIN"
+            android:textColor="@color/colorAccent"
+            android:textSize="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:fontFamily="monospace"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/dualcolor2"
+            ></Button>
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black"
+            ></View>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            >
+            <Button
+                android:id="@+id/forgot"
+                android:background="@android:color/transparent"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:textColor="@android:color/black"
+                android:layout_height="match_parent"
+                android:text="forgot your password?"
+                android:textSize="20dp"
+                ></Button>
+            <Button
+                android:id="@+id/signup"
+                android:text="Sign Up"
+                android:textSize="20dp"
+                android:layout_width="0dp"
+                android:background="@android:color/transparent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                ></Button>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        ></TextView>
+    <TextView
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:text="Selflearn.com"
+        ></TextView>
+</LinearLayout>

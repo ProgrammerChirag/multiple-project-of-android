@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "549386343442",
+    "firebase_url": "https://barcodemlkitapp.firebaseio.com",
+    "project_id": "barcodemlkitapp",
+    "storage_bucket": "barcodemlkitapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549386343442:android:a07aa1a73f9f2891d9f4cb",
+        "android_client_info": {
+          "package_name": "com.chirag.barcodemlkit_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549386343442-p1djeockmmr9ade59eh4tj21im8fedfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chirag.barcodemlkit_app",
+            "certificate_hash": "d36e37007795dc548cbbb67ad8655697a37fca18"
+          }
+        },
+        {
+          "client_id": "549386343442-jpjnjvdku3bcrnt7r65ndcqtg3du3nqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQocw-AtZ4Q_3ZFTL6syN-MrMBH7JXwiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549386343442-jpjnjvdku3bcrnt7r65ndcqtg3du3nqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

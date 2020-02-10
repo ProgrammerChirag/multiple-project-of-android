@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_Notes">
+    <androidx.cardview.widget.CardView
+        android:background="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="20dp"
+        >
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#92F0E4"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TODO"
+                android:textColor="#424E83"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:layout_margin="20dp"
+                ></TextView>
+
+            <EditText
+                android:inputType="text"
+                android:maxLength="20"
+                android:textColorHint="@android:color/black"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TITLE"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:id="@+id/title_update"
+                android:layout_margin="20dp"
+                android:background="@drawable/mystyle"
+                ></EditText>
+            <EditText
+                android:inputType="textMultiLine"
+                android:lines="20"
+                android:textColorHint="@android:color/black"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="Description"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:id="@+id/description_update"
+                android:layout_margin="20dp"
+                android:background="@drawable/mystyle"
+                ></EditText>
+            <Button
+                android:text="Update Record"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:id="@+id/update_user"
+                android:layout_margin="20dp"
+                android:background="@drawable/mystyl2"
+                ></Button>
+
+            <Button
+                android:text="delete record"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:id="@+id/delete_user"
+                android:layout_margin="20dp"
+                android:background="@drawable/mystyl2"
+                ></Button>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

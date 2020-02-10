@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/profilefb"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_page">
+    <LinearLayout
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/juneja"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="4dp"
+            ></de.hdodenhof.circleimageview.CircleImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:orientation="vertical"
+        >
+>        <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chirag Juneja"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        ></TextView>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Followers:  200"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            ></TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="following:  200"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            ></TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Posts   : 30"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            ></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/data"
+            ></EditText>
+    </LinearLayout>
+
+
+</LinearLayout>
